@@ -1,0 +1,36 @@
+{
+    "project": "QuantumNet - Hybrid ResNet-50 + 4-Qubit VQC",
+    "dataset": "APTOS 2019 Blindness Detection",
+    "test_samples": 550,
+    "our_results": {
+        "accuracy": "96.00%",
+        "precision": "96.73%",
+        "recall": "95.34%",
+        "f1_score": "96.03%"
+    },
+    "confusion_matrix": [
+        [
+            262,
+            9
+        ],
+        [
+            13,
+            266
+        ]
+    ],
+    "confusion_matrix_details": {
+        "TN": 262,
+        "FP": 9,
+        "FN": 13,
+        "TP": 266
+    },
+    "research_paper": {
+        "accuracy": "94.11%",
+        "precision": "96.90%",
+        "recall": "94.84%",
+        "f1_score": "95.86%"
+    },
+    "accuracy_difference": "+1.89 percentage points",
+    "best_vqc_epoch": 10,
+    "best_validation_loss": 0.09930118791385387
+}

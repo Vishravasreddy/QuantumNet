@@ -1,0 +1,21 @@
+{
+    "input_dimension": 4,
+    "normalization": "training_minmax_to_minus_one_one",
+    "encoding": "Ry(x*pi/2)",
+    "num_qubits": 4,
+    "train_samples": 2563,
+    "validation_samples": 549,
+    "test_samples": 550,
+    "pca_min": [
+        -22.57551383972168,
+        -12.813199996948242,
+        -20.78447151184082,
+        -11.997081756591797
+    ],
+    "pca_max": [
+        65.16226196289062,
+        21.911630630493164,
+        13.157600402832031,
+        15.917354583740234
+    ]
+}

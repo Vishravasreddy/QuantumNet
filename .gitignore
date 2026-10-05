@@ -1,0 +1,14 @@
+﻿__pycache__/
+*.pyc
+cloudflared.exe
+.env
+.venv/
+venv/
+models_new/
+run_app.bat
+share_online.bat
+test_probabilities.npy
+test_resnet_features.npy
+test_split.csv
+test_true_labels.npy
+test_x.npy

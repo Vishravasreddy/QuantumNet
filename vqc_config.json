@@ -1,0 +1,15 @@
+{
+    "num_qubits": 4,
+    "num_variational_layers": 6,
+    "encoding": "Ry(x*pi/2)",
+    "entanglement": [
+        "CNOT(0,1)",
+        "CNOT(1,2)",
+        "CNOT(2,3)"
+    ],
+    "measurement": "Z expectation on each qubit",
+    "theta_shape": [
+        6,
+        4
+    ]
+}
